@@ -1,3 +1,7 @@
 ## Dubois challenge plots 
 
-![](slavesplot_Py.png)
+![](georgiapop_plotPy.png)
+
+
+
+![](slaves_plotPy.png)
