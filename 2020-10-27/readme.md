@@ -1,4 +1,4 @@
 
-![](turbinesperprovince)
+![](turbinesperprovince.png)
 
-![](turbinecapacity_histogram)
+![](turbinecapacity_histogram.png)
