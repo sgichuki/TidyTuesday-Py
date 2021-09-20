@@ -1,1 +1,4 @@
 
+![](turbinesperprovince)
+
+![](turbinecapacity_histogram)
