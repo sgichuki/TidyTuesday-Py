@@ -1,6 +1,6 @@
-## From the news: new car registrations drop to a 20 year low in the United Kingdom
+#### From the news: new car registrations drop to a 20 year low in the United Kingdom
 
-This chart was inspired by a BBC article on the drop in new car registrations in September 2021, the lowest in more than two decades. Using data from the U.K.'s Society of Motor Manufacturers and Traders I compared the registrations per year to date between last year 2020 and this year 2021. 
+This chart was inspired by a [BBC article](https://www.bbc.com/news/business-58795798#comments) on the drop in new car registrations in September 2021, the lowest in more than two decades. Using data from the U.K.'s Society of Motor Manufacturers and Traders I compared the registrations per year to date between last year 2020 and this year 2021. 
 
 ````
 import numpy as np
