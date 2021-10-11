@@ -1,7 +1,7 @@
 
-### From the news: French Prime minister announces a freeze on increases regulated gas prices
+### From the news: A series of quick charts in Python inspired by news items: 
+### French Prime minister announces a freeze on increases regulated gas prices
 
-A series of quick charts in Python inspired by news items: 
 
 
 > Le Premier ministre a annoncé ce jeudi soir un gel des tarifs réglementés du gaz et un plafonnement à 4 % de la hausse des prix de l'électricité via une forte baisse de la 
