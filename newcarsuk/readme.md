@@ -34,6 +34,8 @@ HEV           NaN   43.558070
 ````
 Diesel vehicle registrations saw the most decline, followed by petrol vehicles. Given the significant increases in legislation favouring electric vehicles the increases in new car purchases across all categories for electric vehicles is not surprising. 
 
+![](newcarsplot.png)
+
 
 
 
