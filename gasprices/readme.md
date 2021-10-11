@@ -1,4 +1,4 @@
-### From the news: 
+### From the news: French Prime minister announces a freeze on increases regulated gas prices
 
 A series of quick charts inspired by news items: 
 
