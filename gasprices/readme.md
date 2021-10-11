@@ -1,6 +1,6 @@
 
 ### From the news: A series of quick charts in Python inspired by news items: 
-### French Prime minister announces a freeze on increases regulated gas prices
+#### French Prime minister announces a freeze on increases regulated gas prices
 
 
 
