@@ -21,12 +21,28 @@ tarifb0 = pd.read_excel(r'C:\Users\warau\Documents\python_work\TidyTuesdayPy\gaz
 tarifb1 = pd.read_excel(r'C:\Users\warau\Documents\python_work\TidyTuesdayPy\gazfrance\tarifB1.xlsx')
 
 ````
-From these data I chose to plot one of the tarifs that includes taxes. Of note, there are different tariffs for gas prices as follows, descriptions from: 
+From these data I chose to plot the following tariffs, choosing the rate that includes taxes: 
 
 The BASE tariff: concerns consumption of less than 1,000 KWh per year, which corresponds to the use of gas for cooking. 
 
 The B0 tariff : corresponds to natural gas consumption of between 1,000 and 6,000 KWh per year. This volume of consumption corresponds to the use of gas in your kitchen (cooking) and to heat your hot water (using a water heater).
 
 The B1 tariff: this rate is for households that consume between 6,000 and 30,000 KWh of gas. This rate concerns the use of gas for cooking, hot water and heating (use of a boiler).
+
+````
+# multiple line plots
+plt.plot( 'DATE_FIN', 'PART_FIXE_TTC', data=tarifbase, color= 'mediumblue', linewidth=2,label = "Tarif BASE")
+plt.plot( 'DATE_FIN', 'PART_FIXE_TTC',data=tarifb0, color='red', linewidth=2, label = "Tarif B0")
+plt.plot( 'DATE_FIN', 'PART_FIXE_TTC', data=tarifb1, color='olivedrab', linewidth=2, label = "Tarif B1")
+
+plt.title("Natural gas prices in France 2013 - 2021")
+plt.ylabel("price per kWh (Euros)")
+plt.legend()
+
+# use parameter bbox_to_anchor to reposition
+# the legend box outside the plot area
+plt.gca().legend(loc='center left', bbox_to_anchor=(1, 0.5))
+
+````
 
 ![](francegasprices.png)
