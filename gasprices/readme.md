@@ -45,5 +45,6 @@ plt.legend()
 plt.gca().legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
 ````
+NB: This time series data ends at different points in 2021 for each tariff, always at the end of the month: in May 2021 for Tarif B0, in Sep 2021 for Tarif B1, and in Aug 2021 for the BASE Tarif. 
 
 ![](francegasprices1.png)
