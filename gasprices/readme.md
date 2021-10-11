@@ -45,4 +45,4 @@ plt.gca().legend(loc='center left', bbox_to_anchor=(1, 0.5))
 
 ````
 
-![](francegasprices.png)
+![](francegasprices1.png)
